@@ -1,0 +1,9 @@
+The Shortest Path Navigation System is a software project designed to compute the most efficient route between two locations using graph-based modeling and Dijkstra’s Algorithm. In this system, locations such as cities or states are represented as nodes, and the roads connecting them are represented as weighted edges, where each weight denotes distance or travel cost. The objective is to find the minimum-cost path from a chosen source to a destination.
+
+At the core of the project is Dijkstra’s Algorithm, a greedy algorithm that calculates the shortest path in graphs with non-negative edge weights. The implementation uses a priority queue (min-heap) to always expand the node with the smallest known distance, making the solution efficient even for larger graphs. Along with distance tracking, a parent array is maintained to reconstruct and display the actual route taken.
+
+The project visually simulates how real navigation systems work. Users can select a source and destination, and the system highlights the optimal route on a map-based interface. This mirrors the fundamental routing logic used in platforms like Google Maps and Uber, though the project uses predefined map data instead of live GPS and traffic updates.
+
+From a technical perspective, the project demonstrates practical application of core DSA concepts such as graphs, adjacency lists, greedy algorithms, heaps, and path reconstruction. It also integrates algorithmic logic with a user interface, making abstract concepts easier to visualize and understand.
+
+Overall, this project provides a strong foundation in shortest path algorithms and real-world problem solving. It helps learners understand how navigation systems determine optimal routes, and it can be extended in the future to support dynamic traffic weights, real-time data, multiple route options, and heuristic-based algorithms like A* for faster performance on large maps.
